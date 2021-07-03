@@ -49,7 +49,23 @@ a {
     margin-left: 20px;
 }
 
+
+/* Mission container*/
+
 .main-logo {
     display: flex;
     justify-content: center;
+}
+
+.our-goal {
+    display: flex;
+    justify-content: center ;
+    width: 100%;
+}
+
+.our-goal p {
+    width:700px;
+    font-size: 1.1rem;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
 }
