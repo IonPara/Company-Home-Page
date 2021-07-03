@@ -4,11 +4,6 @@ html, body {
     font-size: 16px;
     margin:0;
 }
-
- footer {
-    display: none;
-}
-
 /* Header container */
 
 .head {
@@ -64,10 +59,11 @@ a {
 }
 
 .our-goal p {
-    width:700px;
+    width:850px;
     font-size: 1.1rem;
     font-family: 'Source Code Pro', monospace;
     font-weight: bold;
+    text-align: center;
 }
 
 /* Levels container */
@@ -137,4 +133,26 @@ h3 {
 
 .ion figcaption {
     padding-top: 70px;
+}
+
+/* Contact container */
+
+.contact h2 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Footer container */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    border: 1px solid green;
+    background-color:whitesmoke;
+    height: 100px;
+    color: green;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
